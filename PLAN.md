@@ -26,8 +26,8 @@ Owners: **[CC]** Claude Code alone · **[M]** maintainer · **[CC+M]** Claude pr
 - [x] Commit SPECS.md and PLAN.md [CC]
 - [x] Create GitHub fork of `vvvv/VL.OpenCV` as `zeos/VL.OpenCV5` [M], add it as `origin` [CC]
 - [x] Rename commit `d840fca` [CC]. Files, assembly (`VL.OpenCV5.dll`), package id, dependency references in all `.vl` documents and help patches. C# namespaces and node categories stay `VL.OpenCV`/`OpenCV` (`RootNamespace` pinned). Left alone: help prose, `.github/CONTRIBUTING.md`, `Changelog.md`, stale hints to `VL.OpenCV.Dev.vl` and `VL.OpenCVSharp.vl`
-- [ ] Open `VL.OpenCV5.vl`, `VL.OpenCV5.HDE.vl` and one help patch in vvvv to confirm the renamed references resolve [M]
-- [ ] Restructure commit with `git mv` into the SPECS §3 layout (`src/VL.OpenCV5`, `src/VL.OpenCV5.Windows`, `src/Tests`, `docs/`), so blame survives [CC]
+- [x] Restructure commit `0771d64` [CC]. `src/VL.OpenCV5` (net8.0, builds without Windows APIs) and `src/VL.OpenCV5.Windows` (net8.0-windows). Still OpenCvSharp4. `VL.OpenCV5.vl` references `lib/net8.0/VL.OpenCV5.dll` and `lib/net8.0-windows/VL.OpenCV5.Windows.dll`, the nuspec ships both in one package until M5. `src/Tests` and `docs/` come with their first content (M0, M1)
+- [ ] Open `VL.OpenCV5.vl`, `VL.OpenCV5.HDE.vl` and one help patch in vvvv (build `src/VL.OpenCV5.sln` first). Confirm the renamed package and dll references resolve, and that Renderer, VideoIn and the video device enum are found in `VL.OpenCV5.Windows.dll` [M]
 - [ ] LICENSE keeps the vvvv notice, add own copyright line for new work [CC]
 - [ ] Replace `.github/workflows/main.yml`. It publishes to nuget.org on push to `main` with `VVVV_ORG_NUGET_KEY`, which the fork doesn't have. Superseded by `test.yml` (M0) and `release.yml` (M6) [CC]
 - [ ] `.gitignore` for new output paths (`lib/net10.0*/`, test results) [CC]
@@ -70,8 +70,9 @@ Exit: go or no-go written into `docs/m0-report.md`. If `linux-arm64` lacks video
 ## M1 · Core project and facade
 
 - [ ] `src/VL.OpenCV5/VL.OpenCV5.csproj`, net10.0, Nullable, warnings as errors, RID-conditional runtimes, VL.CoreLib with `PrivateAssets="all"` [CC]
-- [ ] Port neutral files (`CVImage`, `Converters`, `Calibration`, `Enums`, `Utils`, `HoldLatestCopy.Mat`, `UnsupportedMatTypeException`, `VideoSourceToCvImage`, `YOLO*`) into `Imaging/`, `Video/`, `Detection/`, `Calibration/` [CC]
-- [ ] `src/VL.OpenCV5.Windows`, net10.0-windows, with Renderer, PictureBoxIpl, DIPHelpers, VideoInInfo and the VideoInput dynamic enums. Compiles now, behaviour checked in M5 [CC]
+- [ ] Port the moved core files (`Imaging/`, `Video/`, `Detection/`, `Calibration/`, `Enums`, `Utils`) to OpenCvSharp5 [CC]
+- [ ] `src/VL.OpenCV5.Windows` to net10.0-windows and `OpenCvSharp5.GdipExtensions`. Compiles now, behaviour checked in M5 [CC]
+- [ ] Update the `.vl` PlatformDependency paths to the new `lib/net10.0*` folders [CC]
 - [ ] CI guard that fails if the core project references `System.Windows.Forms`, `System.Drawing.Common` or `Windows.Win32` [CC]
 - [ ] `tools/ApiInventory`. Parses `VL.OpenCV.vl`, extracts OpenCvSharp members, reflects over OpenCvSharp4 4.9 and OpenCvSharp5, classifies each as unchanged, renamed, removed or ref-struct-affected. Writes `docs/api-inventory.md` and a CSV for the M2 scripts [CC]
 - [ ] The same tool lists nodes using `VL.CoreLib.Windows`, `System.Drawing` and `System.Windows.Forms`, which move to the Windows package [CC]
@@ -122,8 +123,8 @@ Exit: all nodes compile without red in vvvv 8 on Windows.
 
 ## Next actions
 
-1. [M] Set `opencv5` as the fork's default branch, check the rename in the vvvv editor.
-2. [CC] Restructure commit.
+1. [M] Set `opencv5` as the fork's default branch, check the rename and split in the vvvv editor.
+2. [CC] LICENSE line, replace `main.yml`.
 3. [CC] Finish the fact check and update SPECS.md.
 4. [CC] M0 smoke app and CI matrix.
 5. [CC] API inventory script and `docs/api-inventory.md`.

@@ -3,18 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VL.OpenCV5", "VL.OpenCV5.csproj", "{BF6BC14C-CC1F-4F5F-B491-452662B4D4A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VL.OpenCV5", "VL.OpenCV5\VL.OpenCV5.csproj", "{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VL.OpenCV5.Windows", "VL.OpenCV5.Windows\VL.OpenCV5.Windows.csproj", "{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF6BC14C-CC1F-4F5F-B491-452662B4D4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF6BC14C-CC1F-4F5F-B491-452662B4D4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF6BC14C-CC1F-4F5F-B491-452662B4D4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF6BC14C-CC1F-4F5F-B491-452662B4D4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Debug|x64.Build.0 = Debug|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Release|x64.ActiveCfg = Release|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Release|x64.Build.0 = Release|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED9A3AE6-EE3C-4EB7-BE26-8F7F0580CEBA}.Release|x86.Build.0 = Release|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Debug|x64.Build.0 = Debug|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Debug|x86.Build.0 = Debug|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Release|x64.ActiveCfg = Release|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Release|x64.Build.0 = Release|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAEEA270-D63E-49C3-B6EB-37CC93069DE3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2383,7 +2383,7 @@
                   <Patch Id="DsmLNroFUJVMEOTM3nZWWl" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="Dv7g3Zh5wwHMROiM2GlzGw" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="346,310,115,19" Id="Eg5rXf1QNL0NHMX9Pq584w">
-                    <p:NodeReference LastCategoryFullName="VL.OpenCV.VideoInInfo" LastDependency="VL.OpenCV5.dll">
+                    <p:NodeReference LastCategoryFullName="VL.OpenCV.VideoInInfo" LastDependency="VL.OpenCV5.Windows.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetSupportedFormats" />
                     </p:NodeReference>
@@ -17629,7 +17629,7 @@
               <ControlPoint Id="RvNOKyqAuoELmFsXQybM7j" Bounds="386,360" />
               <ControlPoint Id="OmFs7lmIF1aM08mu0gE6IF" Bounds="361,330" />
               <Node Bounds="309,250,143,19" Id="P6F6BDtbH7PPrTWDfdtCGH">
-                <p:NodeReference LastCategoryFullName="VL.OpenCV.VideoInInfo" LastDependency="VL.OpenCV5.dll">
+                <p:NodeReference LastCategoryFullName="VL.OpenCV.VideoInInfo" LastDependency="VL.OpenCV5.Windows.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetDeviceIndexAndBackend" />
                 </p:NodeReference>
@@ -17703,7 +17703,7 @@
               <Choice Kind="ForwardDefinition" Name="Forward" />
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>
-            <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV5.dll">
+            <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV5.Windows.dll">
               <Choice Kind="TypeFlag" Name="VideoInputDevice" />
             </p:TypeAnnotation>
             <Patch Id="ClBITGfSEDWP6jK5W3FZWu">
@@ -17720,7 +17720,7 @@
                   </p:NodeReference>
                   <Patch Id="MrH6XZkUTbzQFqMTjEzWVC">
                     <Node Bounds="311,267,79,19" AutoConnect="true" Id="TgO6jEXjW3NPHlKoumxxXk">
-                      <p:NodeReference LastCategoryFullName="VL.OpenCV.VideoInputDevice" LastDependency="VL.OpenCV5.dll">
+                      <p:NodeReference LastCategoryFullName="VL.OpenCV.VideoInputDevice" LastDependency="VL.OpenCV5.Windows.dll">
                         <Choice Kind="OperationNode" Name="CreateDefault" />
                         <FullNameCategoryReference ID="VL.OpenCV.VideoInputDevice" />
                       </p:NodeReference>
@@ -21318,7 +21318,7 @@
                   <Patch Id="NhDmZqGwlw7L0UR9vpXgxq" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="InXEQDpAXHQPw7eBu1BVxV" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="1576,592,49,26" Id="OGg2YiqTlMEQGow27rlrLY">
-                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                       <Choice Kind="OperationCallFlag" Name="Enable" />
@@ -21328,7 +21328,7 @@
                     <Pin Id="LcWwGsiQdE5QSvMsdD3aB7" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="1157,592,96,26" Id="HCMdfzXECpoNXMyG7tKHAV">
-                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                       <Choice Kind="OperationCallFlag" Name="SetRendererMode" />
@@ -21338,7 +21338,7 @@
                     <Pin Id="DtKIYOoJITcOlBPSAC6PfO" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="1473,592,74,26" Id="DyMN5FNnpUWN5fvLONgEb3">
-                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                       <Choice Kind="OperationCallFlag" Name="SetShowText" />
@@ -21348,7 +21348,7 @@
                     <Pin Id="IshU8TDdw0PLKDpk7vHP7f" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="1290,592,50,26" Id="BstueeinT7GP9X7lLbFsUX">
-                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                       <Choice Kind="OperationCallFlag" Name="SetTitle" />
@@ -21358,7 +21358,7 @@
                     <Pin Id="MdgBGoRH8rVPZhHWCV9Sed" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Node Bounds="1366,592,84,26" Id="JBGQYY5zTQhLcf5fu5fjym">
-                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                    <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                       <Choice Kind="OperationCallFlag" Name="SetShowCursor" />
@@ -21375,7 +21375,7 @@
                 <ControlPoint Id="MXN4XkNQiuHLJIf9fFg6kV" Bounds="1447,553" Alignment="Top" />
               </Node>
               <Node Bounds="1029,593,58,26" Id="Dh5aValjXC0MgvETkXsvyO">
-                <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                   <Choice Kind="OperationCallFlag" Name="SetImage" />
@@ -21397,7 +21397,7 @@
               <ControlPoint Id="V8TdAfy9nP0MlamIKzqf5V" Bounds="1544,502" />
               <ControlPoint Id="QH5fy8UVI2AOK0mZL2FNaR" Bounds="1337,502" />
               <Node Bounds="497,277,99,26" Id="MZ5yKLP9tm2QcOAatjPUn0">
-                <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                   <Choice Kind="OperationCallFlag" Name="SetSize" />
@@ -21428,7 +21428,7 @@
                 <Pin Id="ResTZlsGn1gPn9oUaUpoDP" Name="Output" Kind="StateOutputPin" />
               </Node>
               <Node Bounds="497,319,90,26" Id="BL4ydTdYiHdLyJbib2l6GX">
-                <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.dll">
+                <p:NodeReference LastCategoryFullName="VL.OpenCV.Renderer" LastDependency="VL.OpenCV5.Windows.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="Renderer" />
                   <Choice Kind="OperationCallFlag" Name="BoundsChanged" />
@@ -21763,7 +21763,7 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="TeDt91oXJFFOZh2Zwn8J3A" Name="Renderer Mode" Kind="InputPin" Bounds="535,285" DefaultValue="AspectRatioScale">
-                <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV5.dll">
+                <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV5.Windows.dll">
                   <Choice Kind="TypeFlag" Name="RendererMode" />
                 </p:TypeAnnotation>
               </Pin>
@@ -22348,7 +22348,7 @@
               <Choice Kind="ForwardDefinition" Name="Forward" />
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>
-            <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV5.dll">
+            <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV5.Windows.dll">
               <Choice Kind="TypeFlag" Name="Renderer" />
             </p:TypeAnnotation>
             <Patch Id="TLKtAKTPqCrOXIN5Xou0EO">
@@ -49626,7 +49626,8 @@
       <Pin Id="Mrou8fkpIQtLSG8SpOrYsW" MergeId="19725" Name="Rejected Areas" Kind="OutputPin" Bounds="503,958" Summary="Contains the Points of those squares whose inner code has not a correct codification. Useful for debugging purposes." />
     </Patch>
   </Patch>
-  <PlatformDependency Id="M1N4SojOni0Osyx2gZ4x10" Location="./lib/net8.0-windows/VL.OpenCV5.dll" />
+  <PlatformDependency Id="M1N4SojOni0Osyx2gZ4x10" Location="./lib/net8.0/VL.OpenCV5.dll" />
+  <PlatformDependency Id="Cv4GCPnRyeFDLQ5z0HCqQB" Location="./lib/net8.0-windows/VL.OpenCV5.Windows.dll" />
   <PlatformDependency Id="UrxLbPlbKmVP94Zx5YWsQo" Location="System" />
   <PlatformDependency Id="KKd4psddv1PM1JDnyYS5Lv" Location="System.Drawing" />
   <PlatformDependency Id="Ee0UUmfqOVWPSXM6OSY7rA" Location="System.Windows.Forms" />

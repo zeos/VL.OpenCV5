@@ -24,6 +24,6 @@ jobs:
     - name: Publish VL Nuget
       uses: vvvv/PublishVLNuget@1.0.43
       with:
-        csproj: src\VL.OpenCV5.csproj
+        csproj: src\VL.OpenCV5.sln
         nuspec: deployment\VL.OpenCV5.nuspec
         nuget-key: ${{ secrets.VVVV_ORG_NUGET_KEY }}

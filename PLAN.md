@@ -9,25 +9,27 @@ Owners: **[CC]** Claude Code alone · **[M]** maintainer · **[CC+M]** Claude pr
 | Item | State |
 |---|---|
 | Local repo | Initialized 2026-09-26 from `vvvv/VL.OpenCV` `main` at `75e8b9a`, full history and tags |
-| Remotes | `upstream` = vvvv/VL.OpenCV. `origin` missing until the GitHub fork exists |
-| Branches | `main` tracks `upstream/main` untouched. `opencv5` is the work branch |
+| Remotes | `upstream` = vvvv/VL.OpenCV, `origin` = [zeos/VL.OpenCV5](https://github.com/zeos/VL.OpenCV5) (GitHub fork) |
+| Branches | `main` tracks `upstream/main` untouched. `opencv5` is the work branch, pushed to `origin` |
 | Current phase | Phase 0, then M0 |
 
 ## Branching rules
 
 - `main` mirrors upstream and is only used to open fixes back to VL.OpenCV 4.
-- `opencv5` is long-lived. Work happens on `m<N>/<topic>` branches off `opencv5`.
-- Scripted `.vl` rewrites always get their own branch and merge only after the category was opened in the editor (SPECS §9).
+- `opencv5` is long-lived. Commits go straight onto it and are pushed to `origin`, no PRs inside the fork. Make `opencv5` the fork's default branch on GitHub.
+- Scripted `.vl` rewrites are the exception. They go on a local branch and are merged into `opencv5` only after the category was opened in the editor (SPECS §9).
 - Tooling that is not part of the package (inventory, rewrite scripts, smoke app) lives in `tools/`.
 
 ## Phase 0 · Bootstrap
 
 - [x] Init repo with upstream history, `upstream` remote, `opencv5` branch [CC]
 - [x] Commit SPECS.md and PLAN.md [CC]
-- [ ] Create GitHub fork of `vvvv/VL.OpenCV`, add it as `origin`, push `opencv5` [M]
-- [ ] Rename commit, nothing else in it: `VL.OpenCV` to `VL.OpenCV5` for `.vl` documents, csproj, nuspec, package ids, README title. Update cross-document references (HDE to main document) in the same commit [CC]
+- [x] Create GitHub fork of `vvvv/VL.OpenCV` as `zeos/VL.OpenCV5` [M], add it as `origin` [CC]
+- [x] Rename commit `b1c31d0` [CC]. Files, assembly (`VL.OpenCV5.dll`), package id, dependency references in all `.vl` documents and help patches. C# namespaces and node categories stay `VL.OpenCV`/`OpenCV` (`RootNamespace` pinned). Left alone: help prose, `.github/CONTRIBUTING.md`, `Changelog.md`, stale hints to `VL.OpenCV.Dev.vl` and `VL.OpenCVSharp.vl`
+- [ ] Open `VL.OpenCV5.vl`, `VL.OpenCV5.HDE.vl` and one help patch in vvvv to confirm the renamed references resolve [M]
 - [ ] Restructure commit with `git mv` into the SPECS §3 layout (`src/VL.OpenCV5`, `src/VL.OpenCV5.Windows`, `src/Tests`, `docs/`), so blame survives [CC]
 - [ ] LICENSE keeps the vvvv notice, add own copyright line for new work [CC]
+- [ ] Replace `.github/workflows/main.yml`. It publishes to nuget.org on push to `main` with `VVVV_ORG_NUGET_KEY`, which the fork doesn't have. Superseded by `test.yml` (M0) and `release.yml` (M6) [CC]
 - [ ] `.gitignore` for new output paths (`lib/net10.0*/`, test results) [CC]
 - [ ] Tell the vvvv group about the port and the naming question [M]
 
@@ -40,6 +42,7 @@ Verified 2026-09-26
 - `src/VL.OpenCV.csproj` as described (net8.0-windows, WinForms, OpenCvSharp4 4.9.0.20240103, CsWin32, VL.CoreLib 2024.6.6) ✔
 - nuget.org has `OpenCvSharp5` 5.0.0.20260905 and every runtime package named in SPECS §1.2 and §3, plus `OpenCvSharp5.GdipExtensions`, all at the same version ✔
 - Line matches in `VL.OpenCV.vl`: `CvDnn` 17 ✔, `CvAruco` 12 ✔, `InputArray` 66 lines (SPECS says about 30 references), `VideoCapture` 49 lines (SPECS says 23). These are raw line counts. The M1 inventory gives exact numbers
+- License mismatch upstream: `LICENSE` is BSD-3-Clause, but the nuspec declares `LGPL-3.0-only`. Resolve before the first release (SPECS assumes BSD-3-Clause)
 - `VL.CoreLib` on nuget.org stops at 2025.7.4 (vvvv 7). Version and feed for vvvv 8 are unknown. Upstream `NuGet.config` points at the vvvv TeamCity feed
 
 Remaining
@@ -119,8 +122,8 @@ Exit: all nodes compile without red in vvvv 8 on Windows.
 
 ## Next actions
 
-1. [M] Create the GitHub fork and add it as `origin`.
-2. [CC] Rename commit, then restructure commit.
+1. [M] Set `opencv5` as the fork's default branch, check the rename in the vvvv editor.
+2. [CC] Restructure commit.
 3. [CC] Finish the fact check and update SPECS.md.
 4. [CC] M0 smoke app and CI matrix.
 5. [CC] API inventory script and `docs/api-inventory.md`.
@@ -132,3 +135,4 @@ Exit: all nodes compile without red in vvvv 8 on Windows.
 - Linux x64 highgui: document the GTK3 dependency, or build a runtime without highgui.
 - `osx-x64` support, optional in SPECS. Decide before release.
 - YOLO model and its licence.
+- Package license, BSD-3-Clause (LICENSE file) or LGPL-3.0-only (upstream nuspec).

@@ -25,7 +25,7 @@ Owners: **[CC]** Claude Code alone · **[M]** maintainer · **[CC+M]** Claude pr
 - [x] Init repo with upstream history, `upstream` remote, `opencv5` branch [CC]
 - [x] Commit SPECS.md and PLAN.md [CC]
 - [x] Create GitHub fork of `vvvv/VL.OpenCV` as `zeos/VL.OpenCV5` [M], add it as `origin` [CC]
-- [x] Rename commit `b1c31d0` [CC]. Files, assembly (`VL.OpenCV5.dll`), package id, dependency references in all `.vl` documents and help patches. C# namespaces and node categories stay `VL.OpenCV`/`OpenCV` (`RootNamespace` pinned). Left alone: help prose, `.github/CONTRIBUTING.md`, `Changelog.md`, stale hints to `VL.OpenCV.Dev.vl` and `VL.OpenCVSharp.vl`
+- [x] Rename commit `d840fca` [CC]. Files, assembly (`VL.OpenCV5.dll`), package id, dependency references in all `.vl` documents and help patches. C# namespaces and node categories stay `VL.OpenCV`/`OpenCV` (`RootNamespace` pinned). Left alone: help prose, `.github/CONTRIBUTING.md`, `Changelog.md`, stale hints to `VL.OpenCV.Dev.vl` and `VL.OpenCVSharp.vl`
 - [ ] Open `VL.OpenCV5.vl`, `VL.OpenCV5.HDE.vl` and one help patch in vvvv to confirm the renamed references resolve [M]
 - [ ] Restructure commit with `git mv` into the SPECS §3 layout (`src/VL.OpenCV5`, `src/VL.OpenCV5.Windows`, `src/Tests`, `docs/`), so blame survives [CC]
 - [ ] LICENSE keeps the vvvv notice, add own copyright line for new work [CC]

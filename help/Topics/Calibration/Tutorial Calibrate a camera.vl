@@ -100,7 +100,7 @@
       <Patch Id="IWzGLdPFgUPNZmPIigEjQW">
         <Canvas Id="NBf9lPXaKCfMdcCVNJrWn8" CanvasType="Group">
           <Node Bounds="101,417,165,19" Id="EF4jF4f03N7OdLTlKJ9eyG">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -117,7 +117,7 @@
             <Pin Id="GBX1FzJKq1sMypiLMYWIVZ" Name="Supported Formats" Kind="OutputPin" />
           </Node>
           <Node Bounds="64,1362,145,19" Id="HO7mLHr54nyOGxnuNsHBP3">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -144,7 +144,7 @@
             <Pin Id="O4u5zIO1zlVPGHtYi6gJpH" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="129,611,145,19" Id="SENqn3GLXc3PIgKD47bA4R">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FindChessboardCorners" />
             </p:NodeReference>
@@ -170,7 +170,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="102,686,141,19" Id="I8t2pZ8lgQsLO6mZLRTyEX">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawChessboardCorners" />
             </p:NodeReference>
@@ -188,7 +188,7 @@
             <Pin Id="FtubQxzxKAXOHJ2F50nRTY" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="171,1006,92,19" Id="MRSHYWPnTvbPPXerx1Qf4W">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CalibrateCamera" />
             </p:NodeReference>
@@ -212,7 +212,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="59,915,105,19" Id="GwZrZnovi5EP8IR7DBPTLk">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="BoardCorners" />
               <CategoryReference Kind="Category" Name="Calibration" NeedsToBeDirectParent="true" />
@@ -228,7 +228,7 @@
           </Node>
           <Pad Id="AZzcXjWfXlsLGHHc6OywCC" Comment="Reprojection Error" Bounds="260,1051,34,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="104,1291,69,19" Id="QNL7SyFujhbQMZmE4KIcjr">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Undistort" />
             </p:NodeReference>
@@ -290,7 +290,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="131,1149,85,19" Id="AuHSbLKlvHDNTlhKsjHJvr">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Calibration" />
@@ -303,7 +303,7 @@
             <Pin Id="H0ySDJvQ5BPN3zd4c9b81s" Name="Write" Kind="InputPin" />
           </Node>
           <Node Bounds="136,1233,89,19" Id="GkUvVkYzz7RQFvKe62c1vR">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Calibration" />
@@ -338,7 +338,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="215,930,45,19" Id="TDQ6BnMQ7wWQMyajYIGzhx">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Info" />
               <CategoryReference Name="Utils" NeedsToBeDirectParent="true" />
@@ -682,5 +682,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="BmmECdadQ3ZOyVD18mOOK6" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="BmmECdadQ3ZOyVD18mOOK6" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

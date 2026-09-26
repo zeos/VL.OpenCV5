@@ -16,7 +16,7 @@
       <Patch Id="PLIbKl09x05LvyK252c4KP">
         <Canvas Id="JwARLwxCFIENBHywza8RZz" CanvasType="Group">
           <Node Bounds="56,381,69,19" Id="CmeOzv1J1KhMkmlbGFh0iq">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Filter" />
@@ -29,7 +29,7 @@
             <Pin Id="NSEhgM2z8jXOcTmjG4FfCQ" Name="Flow" Kind="OutputPin" />
           </Node>
           <Node Bounds="36,129,125,19" Id="BxkhlTBiJXrOlRV020F8Kj">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -50,7 +50,7 @@
             <Pin Id="UkmZoujACiOQB8SYRebVad" Name="Supported Formats" Kind="OutputPin" />
           </Node>
           <Node Bounds="36,575,105,19" Id="ArPdazRcOyiO3Ze4oTlCAl">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawOpticalFlow" />
             </p:NodeReference>
@@ -73,7 +73,7 @@
             <Pin Id="PZvldBOop7aNKZq83xjgMg" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="16,631,125,19" Id="RopiCVD3753NbmNEZwUa2H">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -107,7 +107,7 @@
               <Patch Id="LnfM2ZSwEiAMapRkTsaXsZ" Name="Create" ManuallySortedPins="true" />
               <Patch Id="R35HNjTEnReOOd9TQ3tLEE" Name="Then" ManuallySortedPins="true" />
               <Node Bounds="634,436,58,19" Id="F6EZ6vRHhwuQHItpECJIEI">
-                <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="OpenCV" />
                   <Choice Kind="ProcessAppFlag" Name="ToValues" />
@@ -256,7 +256,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="56,249,65,19" Id="Qhu10fW3qu4Prcgx7P8erZ">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Resize (Scale)" />
             </p:NodeReference>
@@ -273,7 +273,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="56,507,65,19" Id="HnNiRfALrz1QTAAK4vbEq3">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Resize (Scale)" />
             </p:NodeReference>
@@ -356,5 +356,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="K0wHUIqIe1bPWaVVrjDZtd" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="K0wHUIqIe1bPWaVVrjDZtd" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

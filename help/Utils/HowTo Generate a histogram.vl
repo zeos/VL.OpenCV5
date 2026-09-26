@@ -16,7 +16,7 @@
       <Patch Id="I36hkl6Ww4oLAVyJxMkJuJ">
         <Canvas Id="FzxWkoHLk4RL5iJO79iXlR" CanvasType="Group">
           <Node Bounds="263,229,74,19" Id="CjTuOgz1gf5OWFMKgWJhyI">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Histogram" />
             </p:NodeReference>
@@ -29,7 +29,7 @@
             <Pin Id="FkL6W8o4cAeNVMEVbUQBk2" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="263,402,98,19" Id="QGsJVLaok5oL1835ToW9qB">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawHistogram" />
             </p:NodeReference>
@@ -48,7 +48,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="223,492,145,19" Id="VMApjY7svMTMvJeAf9T8Ax">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -71,7 +71,7 @@
             <Pin Id="DAEZ8hX4te8PUyhCqVWjII" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="108,182,86,19" Id="VhA8pREmyRyL9rf6xpL3Va">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -109,7 +109,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="68,492,145,19" Id="HNrkVdcLMQoLK7A7tbRxfa">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -132,7 +132,7 @@
             <Pin Id="Sz9ri2GgfhsOMenfnoiTgO" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="108,402,79,19" Id="TBHpVUiKHpyLAJW5zWZ2WQ">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GetChannel" />
             </p:NodeReference>
@@ -162,5 +162,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV" Version="0.2.142-alpha" />
+  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV5" Version="0.2.142-alpha" />
 </Document>

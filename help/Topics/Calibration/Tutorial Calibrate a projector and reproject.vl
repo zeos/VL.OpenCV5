@@ -1800,7 +1800,7 @@
             <Pin Id="MLyOQX3DQSvOuikicrf5AV" Name="Bind Depth As Resource During Transparent Rendering" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="929,781,293,19" Id="DRRymdN4hwsLyUGMk96V7k">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Calibration" />
@@ -1926,7 +1926,7 @@
             <Pin Id="B8Gryew1iJAMRMhqOn795Q" Name="Value" Kind="OutputPin" />
           </Node>
           <Node Bounds="929,864,127,19" Id="HHQiengAaRiO2Us1yyRcqG">
-            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ExtrinsicsToStrideMatrix" />
             </p:NodeReference>
@@ -2032,7 +2032,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="1211,977,110,19" Id="ChXtuNgFc4MNwf1YV1wFo8">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ViewProjectionWriter" />
             </p:NodeReference>
@@ -2056,7 +2056,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="1073,864,144,19" Id="LfWXVgH9Qb2N46gcjPmzPi">
-            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="IntrinsicsToProjectionMatrix" />
             </p:NodeReference>
@@ -2175,7 +2175,7 @@
             <Pin Id="IYHZ0irpGfKL0fkp9rezKz" Name="Bind Depth As Resource During Transparent Rendering" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="1905,891,114,19" Id="Dk68dAxdqFCMbgIioKveny">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ViewProjectionReader" />
             </p:NodeReference>
@@ -2993,7 +2993,7 @@
   <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="QVX8J73UwogLed0cE5PoDh" Location="VL.Skia" Version="2024.6.7" />
   <NugetDependency Id="AsfDc6DZ74mONdjpNF7V5g" Location="VL.EditingFramework" Version="2024.6.7" />
-  <NugetDependency Id="UdJwnxvKTPVQDCOhEpA1sF" Location="VL.OpenCV" Version="1.0.145" />
+  <NugetDependency Id="UdJwnxvKTPVQDCOhEpA1sF" Location="VL.OpenCV5" Version="1.0.145" />
   <NugetDependency Id="RKLwXz0f4HMQLHPLIZ6PQG" Location="VL.Stride.TextureFX" Version="2024.6.7" />
   <NugetDependency Id="Hb4TEY4p3PVOMkVUtCO96B" Location="VL.Stride.Runtime" Version="2024.6.7" />
   <DocumentDependency Id="BQubEHEnr1bLXQjVaANRgj" Location="../../helpers/Helpers.vl" />

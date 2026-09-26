@@ -16,7 +16,7 @@
       <Patch Id="Q50mqbUDK5RQBp2jvc1h7K">
         <Canvas Id="DqwF75vRH4WOzDDRPytTj4" CanvasType="Group">
           <Node Bounds="220,182,75,19" Id="PVMEZxRuTd2MmUJSofjQvj">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Source" />
@@ -33,7 +33,7 @@
             <Pin Id="NKQ0tZjHhj4Pm7kd5y2xIU" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="221,498,45,19" Id="AB3wBlwDQnSOqRGaEjcAOE">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Pipet" />
             </p:NodeReference>
@@ -150,7 +150,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="253,419,145,19" Id="NCEzwTKPYwGMrOIQZzQj8B">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -173,7 +173,7 @@
             <Pin Id="OU5TfV8jqmnLYNEqfhGh7I" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="293,375,165,19" Id="Kk75LqrOqaTPJeZGp8L3If">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawMarker" />
             </p:NodeReference>
@@ -247,5 +247,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Bd0LNKtBdjUM5TF1Sj3nQ4" Location="VL.OpenCV" Version="0.2.142-alpha" />
+  <NugetDependency Id="Bd0LNKtBdjUM5TF1Sj3nQ4" Location="VL.OpenCV5" Version="0.2.142-alpha" />
 </Document>

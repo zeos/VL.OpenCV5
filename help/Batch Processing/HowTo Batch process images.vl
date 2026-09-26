@@ -77,7 +77,7 @@
               <ControlPoint Id="TzTfD2vWnUYQElrASPHNUp" Bounds="136,609" />
               <ControlPoint Id="G1Cr2KqRtTaLBrV5GlfkEZ" Bounds="136,877" />
               <Node Bounds="134,712,125,19" Id="TP68bldShu9PqvxscnUV3Q">
-                <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Filter" NeedsToBeDirectParent="true" />
                   <Choice Kind="ProcessAppFlag" Name="Sobel" />
@@ -97,7 +97,7 @@
                 <Pin Id="MRtCCiBXGbOPCZbVdQ5bBW" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="134,645,75,19" Id="K9h79jeDsrKOWKb7fSIhWJ">
-                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="OpenCV" />
                   <CategoryReference Kind="Category" Name="Source" />
@@ -114,7 +114,7 @@
                 <Pin Id="V0mu5tpCHEMOSOtSTP2Z5e" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="134,825,71,19" Id="Khk0zy7dbSwLURDPj6g0Lp">
-                <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ImageWriter" />
                   <CategoryReference Kind="Category" Name="Sink" NeedsToBeDirectParent="true" />
@@ -158,7 +158,7 @@
                 <Pin Id="GGpwMB8oBDsMFuc7GSDYEE" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="134,771,65,19" Id="UygFuvhZ7YiNMfpOH24enB">
-                <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Resize (Scale)" />
                 </p:NodeReference>
@@ -292,5 +292,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="JNy93TAXtOBPDDsHgRztJy" Location="VL.Skia" Version="2024.6.7" />
-  <NugetDependency Id="Cv6RPU649kDQV0n0g2B169" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="Cv6RPU649kDQV0n0g2B169" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

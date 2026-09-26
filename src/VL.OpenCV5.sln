@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VL.OpenCV", "VL.OpenCV.csproj", "{BF6BC14C-CC1F-4F5F-B491-452662B4D4A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VL.OpenCV5", "VL.OpenCV5.csproj", "{BF6BC14C-CC1F-4F5F-B491-452662B4D4A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

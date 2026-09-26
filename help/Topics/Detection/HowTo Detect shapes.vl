@@ -176,7 +176,7 @@
       <Patch Id="U4Cq5YiFMkmLd534O2Oo0V">
         <Canvas Id="Cd3fAt5GTXnPK32yvODd3c" CanvasType="Group">
           <Node Bounds="75,365,67,19" Id="VEZ3J4iBEzJPpabwR8PEy6">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Source" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="FromImage" />
@@ -186,7 +186,7 @@
             <Pin Id="ObfLGeqQgaVOt8W1dv9FXv" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="139,464,65,19" Id="Erey1yEzK7xMReqd4N6uoH">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Contours" />
             </p:NodeReference>
@@ -199,7 +199,7 @@
             <Pin Id="LOBEsm6O0EPLrqbq8XLZV1" Name="Hierarchy" Kind="OutputPin" />
           </Node>
           <Node Bounds="139,432,60,19" Id="CgIDt5gRZX7MOsUmtouZ47">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GrayScale" />
             </p:NodeReference>
@@ -221,7 +221,7 @@
               <Patch Id="EJFE11jahsjL4VZqB4Paf9" Name="Update" ManuallySortedPins="true" />
               <Patch Id="O7JgOmYjiCZPP0ZxZn8AVd" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="139,536,112,19" Id="GmX1QTIDytSPp4P441z3MA">
-                <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationNode" Name="ApproximatePolygon" />
                 </p:NodeReference>
@@ -286,7 +286,7 @@
             <ControlPoint Id="D9FMIvHZSNUPgMutUhiLkI" Bounds="163,702" Alignment="Bottom" />
           </Node>
           <Node Bounds="34,861,145,19" Id="RpA1xrEl3ILNXoaILpSnX4">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
               <CategoryReference Kind="Category" Name="Sink" NeedsToBeDirectParent="true" />
@@ -314,7 +314,7 @@
             <Pin Id="A255u5L4EWZPczBUrbNXOJ" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="74,749,105,19" Id="VIgMjmmMze2Nuz9oplN6tc">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawPolygons" />
             </p:NodeReference>
@@ -344,7 +344,7 @@
             <Pin Id="HwVrWQtqPOrPUA0JXhsJNX" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="74,813,165,19" Id="HyBDA5YECrUQOvUm7dU0vv">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawTexts" />
             </p:NodeReference>
@@ -569,5 +569,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="JrHffJ4VQ2ALp1i2plbPBo" Location="VL.Skia" Version="2024.6.7" />
-  <NugetDependency Id="HG9jPOGANduMqgDqUOJjy7" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="HG9jPOGANduMqgDqUOJjy7" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

@@ -37,7 +37,7 @@
       <Patch Id="Fea2HyOrNhLN7PBz6LEwbE">
         <Canvas Id="VbSqQe3bHFjLGfAd3rJXhq" CanvasType="Group">
           <Node Bounds="148,140,75,19" Id="OdtV4FeWtvoMMb6y3Lcgc3">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -52,7 +52,7 @@
             <Pin Id="IYhlZr2XmXROa7ewqrWolP" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="153,762,141,19" Id="CMo79mjAYTeOtpozgX6Tbt">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawRectangles" />
             </p:NodeReference>
@@ -67,7 +67,7 @@
             <Pin Id="H4CIhx9WA1yND6rb68Def4" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="133,813,125,19" Id="JUVnwtROPKfQFITl5DnQqm">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -172,7 +172,7 @@
                 </p:TypeAnnotation>
               </Pad>
               <Pad Id="A9OoEH3bm5kQPlqyPNKMvv" Comment="Pedestrian Detector Type" Bounds="277,424,64,15" ShowValueBox="true" isIOBox="true" Value="Default">
-                <p:TypeAnnotation LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+                <p:TypeAnnotation LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="TypeFlag" Name="PedestrianDetectorType" />
                 </p:TypeAnnotation>
               </Pad>
@@ -205,7 +205,7 @@
                   <Patch Id="ML0hYFGr7BuPZOQMXr8sdi" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="PnzaRy5HbW1L7ekLh48SNK" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="175,484,125,19" Id="B19sOpuHYgbLchXGGq0C3M">
-                    <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+                    <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="Category" Name="OpenCV" />
                       <CategoryReference Kind="Category" Name="Detection" />
@@ -294,5 +294,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="NLLdKR07C9wLZWdcAFrAso" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="NLLdKR07C9wLZWdcAFrAso" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

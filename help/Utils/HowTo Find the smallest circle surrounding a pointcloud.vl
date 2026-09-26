@@ -16,7 +16,7 @@
       <Patch Id="PpjHPIlTwzvO4jotUDpogE">
         <Canvas Id="S8XEkbUMgFPLkpDMO44vwv" CanvasType="Group">
           <Node Bounds="160,610,145,19" Id="EQjdTrsAfEvPgMav3jl9FO">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
               <CategoryReference Kind="Category" Name="Sink" NeedsToBeDirectParent="true" />
@@ -40,7 +40,7 @@
             <Pin Id="F3PiVSTWndqMTQEUuzUOwk" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="198,288,55,19" Id="Poygui1ax45MSPsBQqfnQh">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CvImage (RGBA)" />
             </p:NodeReference>
@@ -75,7 +75,7 @@
             <Pin Id="Bpo2b6mnPvGQPqvPgysgRz" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="220,473,53,26" Id="T4VNFQ6AmeINEXVRN4I18T">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FitCircle" />
             </p:NodeReference>
@@ -85,7 +85,7 @@
             <Pin Id="GybUkubKs1dLPPsM4g628J" Name="Radius" Kind="OutputPin" />
           </Node>
           <Node Bounds="199,415,222,19" Id="V6tQuWjnRmdOeOkGJHgJ2T">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawMarkers" />
             </p:NodeReference>
@@ -113,7 +113,7 @@
             <Pin Id="Md2KQPniVScMkkIYGTBQls" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="200,547,125,19" Id="JNmXNzG2VxCP0gntl33NA6">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawCircle" />
             </p:NodeReference>
@@ -273,5 +273,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="L2u8Yn1xxv8Oyz9si4qkZh" Location="VL.Skia" Version="2024.6.7" />
-  <NugetDependency Id="JECziHHGQn5MIYf0SNibIW" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="JECziHHGQn5MIYf0SNibIW" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

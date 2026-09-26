@@ -16,7 +16,7 @@
       <Patch Id="TvuY76nOYBtQLphXCzbuvG">
         <Canvas Id="CdaKfUBMxnhNV3cWaEcu7G" CanvasType="Group">
           <Node Bounds="95,489,98,19" Id="M5Y2uiudu3EPSW6ZSjb8w0">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MarkerDetector" />
             </p:NodeReference>
@@ -34,7 +34,7 @@
             <Pin Id="B11xMr44YxkNrZKKC8c1JH" Name="Rejected Areas" Kind="OutputPin" />
           </Node>
           <Node Bounds="75,623,145,19" Id="He7VaKrLhfpQBNzjmxF94m">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawMarkers" />
             </p:NodeReference>
@@ -102,7 +102,7 @@
             <Pin Id="AghzcflZZj8PpaQBJlcSKM" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="35,670,145,19" Id="BLezDPCp1A4NKhtLFHiPmc">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -139,7 +139,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="63,803,105,19" Id="UOHuWD4gmlfLQylq7FD5NA">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MarkerWriter" />
             </p:NodeReference>
@@ -153,7 +153,7 @@
             <Pin Id="RZ1e3bWG1MBLthbSRIez6G" Name="Result" Kind="OutputPin" />
           </Node>
           <Node Bounds="63,836,76,19" Id="ODwYjCLesBUPtuldOU0aqX">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="EstimatePose" />
             </p:NodeReference>
@@ -204,7 +204,7 @@
               <Patch Id="KynPDLIHasPPXbimsev0Gi" Name="Update" ManuallySortedPins="true" />
               <Patch Id="I9ZEWBqewOMOtaZWnwc8SK" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="591,391,75,19" Id="Lw7X7fqAza0QBNi3R9cz2H">
-                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="ImageReader" />
                 </p:NodeReference>
@@ -228,7 +228,7 @@
             <p:Value />
           </Pad>
           <Node Bounds="76,329,125,19" Id="G0wyG6ZOoZyLtolTdJFcjz">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -311,5 +311,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="KVPKuOmjuveLqm5yDwO5Tx" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="KVPKuOmjuveLqm5yDwO5Tx" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

@@ -16,7 +16,7 @@
       <Patch Id="Q50mqbUDK5RQBp2jvc1h7K">
         <Canvas Id="DqwF75vRH4WOzDDRPytTj4" CanvasType="Group">
           <Node Bounds="75,301,75,19" Id="PVMEZxRuTd2MmUJSofjQvj">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Source" />
@@ -37,7 +37,7 @@
             <Pin Id="NKQ0tZjHhj4Pm7kd5y2xIU" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="151,503,83,19" Id="EJWaqGFwRSaOUQv33yKfHU">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CountNonZero" />
             </p:NodeReference>
@@ -48,7 +48,7 @@
             <Pin Id="SqO1GbNDQwMLkUrHXjdo77" Name="Result" Kind="OutputPin" />
           </Node>
           <Node Bounds="75,381,65,19" Id="NGMAc4MIOGUN3bCa5B1mw4">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Threshold" />
             </p:NodeReference>
@@ -64,7 +64,7 @@
             <Pin Id="Muj1DrBY1JcLvNOJmOGd0I" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="35,657,145,19" Id="JoyWwh8KzI3NsJZLppxAuU">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -92,7 +92,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="75,341,42,19" Id="T9wM77RgKfoP0spQtlvM9P">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Invert" />
               <CategoryReference Kind="Category" Name="Filter" NeedsToBeDirectParent="true" />
@@ -129,5 +129,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Bd0LNKtBdjUM5TF1Sj3nQ4" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="Bd0LNKtBdjUM5TF1Sj3nQ4" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

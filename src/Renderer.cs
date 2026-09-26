@@ -33,7 +33,7 @@ namespace VL.OpenCV
         const int WMSZ_BOTTOM = 6;
 
         private RendererMode rendererMode = RendererMode.AspectRatioScale;
-        private string title = "VL.OpenCV Renderer";
+        private string title = "VL.OpenCV5 Renderer";
         private PictureBoxIpl pictureBox;
         private CvImage image;
         private bool showText = false;

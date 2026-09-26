@@ -16,7 +16,7 @@
       <Patch Id="U6y7EiOPit4Ooby2TFJ7F6">
         <Canvas Id="MAtCnTyYZ2SNsMAxOjYo9N" CanvasType="Group">
           <Node Bounds="74,761,145,19" Id="MjfkLzw4zLuQMacIM2knvD">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -43,7 +43,7 @@
             <Pin Id="HYBcQ9AGpvLNyunqv3W4XR" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="134,614,92,19" Id="I2n0sjbXe2ePN8TiGumLoM">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="QRCodeDetector" />
             </p:NodeReference>
@@ -58,7 +58,7 @@
           </Node>
           <Pad Id="QO8ID7VOApTM6fgl30x4nn" Comment="Result" Bounds="223,657,80,33" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="114,531,125,19" Id="QaaWOfjshyxQZunneM9NYO">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -75,7 +75,7 @@
             <Pin Id="BWsYR99ZG3uPrg1WM1ZT0u" Name="Supported Formats" Kind="OutputPin" />
           </Node>
           <Node Bounds="114,717,145,19" Id="UvD7XN9EezqMD8X5aJD4F8">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawMarkers" />
             </p:NodeReference>
@@ -127,7 +127,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="602,237,75,19" Id="A05xmHxjX5CQUKtn7fMdXQ">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -182,5 +182,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="AfmuFAwq0rdMJjdcRc6fyd" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="AfmuFAwq0rdMJjdcRc6fyd" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

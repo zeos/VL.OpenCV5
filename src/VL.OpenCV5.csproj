@@ -3,6 +3,8 @@
  
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
+    <!-- Assembly is VL.OpenCV5, namespaces stay VL.OpenCV so node categories in patches keep resolving -->
+    <RootNamespace>VL.OpenCV</RootNamespace>
     <OutputPath>..\lib\</OutputPath>
     <Version>3.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>

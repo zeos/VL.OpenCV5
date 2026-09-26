@@ -321,7 +321,7 @@
       <Patch Id="IRJHbI92nJkMCo0nwbA1pE">
         <Canvas Id="RHOjSKkenjlMhYoEMffk4r" CanvasType="Group">
           <Node Bounds="100,230,125,19" Id="QTvCMYYcG4EP7YsFM3CzeM">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -338,7 +338,7 @@
             <Pin Id="ECwT3xxr8auLqX1uMEkLiR" Name="Supported Formats" Kind="OutputPin" />
           </Node>
           <Node Bounds="99,660,125,19" Id="Vj2bxt1kqmbOxe35r6XGkt">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawCircles" />
             </p:NodeReference>
@@ -362,7 +362,7 @@
             <Pin Id="E0hABmCml69L1IIJNEHb1H" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="59,710,145,19" Id="F4urfSp5A3sPcdAO6LZKJs">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -421,7 +421,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="119,288,60,19" Id="DcIVqI8rPfgObzQjdnLbOe">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GrayScale" />
             </p:NodeReference>
@@ -469,7 +469,7 @@
               <Patch Id="SXTR16gk0xzN7Uc82mqT5t" Name="Create" ManuallySortedPins="true" />
               <Patch Id="UoB2cSZ93INQWhqiQ3zwWm" Name="Then" ManuallySortedPins="true" />
               <Node Bounds="119,524,124,19" Id="BxQsT1LOh3UNzY4Ul0PNyD">
-                <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="FacemarkDetector" />
                 </p:NodeReference>
@@ -533,5 +533,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Oz3uJFB0Us7PDoBqDMqOat" Location="VL.OpenCV" Version="0.0.0.0" />
+  <NugetDependency Id="Oz3uJFB0Us7PDoBqDMqOat" Location="VL.OpenCV5" Version="0.0.0.0" />
 </Document>

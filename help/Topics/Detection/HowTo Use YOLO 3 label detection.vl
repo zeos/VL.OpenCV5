@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:p="property" xmlns:r="reflection" Id="DrKShGCieqaLT5DiD0orGp" LanguageVersion="2024.6.7" Version="0.128">
   <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="2024.6.7" />
-  <NugetDependency Id="E8BNnxcgzGkOaCqVhFIWzm" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="E8BNnxcgzGkOaCqVhFIWzm" Location="VL.OpenCV5" Version="1.0.0" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
     <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -16,7 +16,7 @@
         <Patch Id="AsSEEwak4tCLiDnTxR1KUO">
           <Canvas Id="B2ENAt68JfIL9XxZrLLg7N" CanvasType="Group">
             <Node Bounds="496,444,159,20" Id="P0G6c2cy0ACOiNGtSujsN0">
-              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="DrawRectangles" />
               </p:NodeReference>
@@ -157,7 +157,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <Node Bounds="496,784,165,13" Id="PdxLQadi6ejOszMP6RrrgL">
-              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="OpenCV" />
                 <CategoryReference Kind="Category" Name="Drawing" />
@@ -647,7 +647,7 @@
               <Patch Id="KOkQblTX7obLYdHNrbZZUA" Name="Update" ManuallySortedPins="true" />
               <Patch Id="J6EJNbPe257MPDIgSv2fxp" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="826,654,150,19" Id="QgVBYSyrpO0P86LdJ2coDI">
-                <p:NodeReference LastCategoryFullName="OpenCV.Detection.YOLO3Descriptor" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Detection.YOLO3Descriptor" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="YOLO3Descriptor" />
                   <Choice Kind="OperationCallFlag" Name="Split" />
@@ -671,7 +671,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="590,328,86,19" Id="J1m3nbuNWbQMdl8XWIFl5Z">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -686,7 +686,7 @@
             <Pin Id="QuBDEdU4I9EPgSI8L7OaPp" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="550,856,145,19" Id="KxgC2Et0X0mPrhenvxLz8a">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -739,7 +739,7 @@
               <ControlPoint Id="GhSUH2i6E9lOQ5SalWZEpe" Bounds="838,469" />
               <ControlPoint Id="PlivzFMO0SmLW4vij037f2" Bounds="1032,473" />
               <Node Bounds="836,419,185,19" Id="GzrmamQ6tfiM0rIjla0AEy">
-                <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="YOLO3Detector" />
                 </p:NodeReference>

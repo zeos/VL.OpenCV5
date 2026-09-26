@@ -16,7 +16,7 @@
       <Patch Id="Kd1EnvkKU2OOxqVHShU4Ko">
         <Canvas Id="R5gqUXw3TfSOs4uq1mYLDj" CanvasType="Group">
           <Node Bounds="159,193,185,19" Id="FGBGrKLhqavQLQGRek4M9H">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -33,7 +33,7 @@
             <Pin Id="QxleSj17qEWNHhGyfe4vMu" Name="Supported Formats" Kind="OutputPin" />
           </Node>
           <Node Bounds="323,320,98,19" Id="KPHS4SO0dYINzsj2LZ1Yaq">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MarkerDetector" />
             </p:NodeReference>
@@ -50,7 +50,7 @@
             <Pin Id="NbsfqBVmbYNQcjw5wqCnaD" Name="Rejected Areas" Kind="OutputPin" />
           </Node>
           <Node Bounds="159,490,145,19" Id="QFSQKs54OmHQbqcX6rl4Dz">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawMarkers" />
             </p:NodeReference>
@@ -70,7 +70,7 @@
             <Pin Id="ExvA3OGcICtNVYIJh6ObtG" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="831,562,86,19" Id="MOWYmfVmBrSP4uoCIGazNK">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="EstimatePose" />
             </p:NodeReference>
@@ -91,7 +91,7 @@
             <Pin Id="KLEq7Gp0KRRONofJYNBZxF" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="159,565,69,19" Id="CGVksh5jNf8LKlLRmLzJXS">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Undistort" />
             </p:NodeReference>
@@ -145,7 +145,7 @@
             <Pin Id="V6RsF2HbOYhK91qRsZYv63" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="831,736,127,19" Id="ACEZbusKlsVQE97eiuk8Xv">
-            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ExtrinsicsToStrideMatrix" />
             </p:NodeReference>
@@ -164,7 +164,7 @@
             <Pin Id="TZXiCwqqnHpMcWmUk7fS4R" Name="Result" Kind="OutputPin" />
           </Node>
           <Node Bounds="664,740,144,19" Id="OegnmpJSC3MMWAhv8Ydu3y">
-            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="IntrinsicsToProjectionMatrix" />
             </p:NodeReference>
@@ -175,7 +175,7 @@
             <Pin Id="FaQbvkwXHyMLCRf2yc1sfn" Name="Projection Transform" Kind="OutputPin" />
           </Node>
           <Node Bounds="558,666,85,19" Id="Cv9qCcHKxitLUiYsHCaHrC">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Info" />
               <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
@@ -414,7 +414,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="173,605,125,19" Id="CKUSZgjDU0FLSl902xmRqd">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
               <CategoryReference Kind="Category" Name="Sink" NeedsToBeDirectParent="true" />
@@ -576,7 +576,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="664,334,89,19" Id="SaZtMkdwdjPNttXeHQEMTT">
-            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="IntrinsicsReader" />
             </p:NodeReference>
@@ -617,7 +617,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="Hrgyot3usReNdncSGUcbuc" Comment="Device" Bounds="161,103,146,15" ShowValueBox="true" isIOBox="true" Value="Default">
-            <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="VideoInputDevice" />
             </p:TypeAnnotation>
           </Pad>
@@ -735,7 +735,7 @@
     </Node>
   </Patch>
   <NugetDependency Id="DnLfimH12OAPP8TapiEQAM" Location="VL.Stride" Version="2024.6.7" />
-  <NugetDependency Id="LJb2pmu6GrwNALtF7KU7R5" Location="VL.OpenCV" Version="0.0.0.0" />
+  <NugetDependency Id="LJb2pmu6GrwNALtF7KU7R5" Location="VL.OpenCV5" Version="0.0.0.0" />
   <NugetDependency Id="AlnZaNxAUbCOQUWpeRn71P" Location="VL.Stride.TextureFX" Version="2024.6.7" />
   <DocumentDependency Id="ULmosShajLPMviDW1xE293" Location="../../helpers/Helpers.vl" />
 </Document>

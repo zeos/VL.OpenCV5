@@ -16,7 +16,7 @@
       <Patch Id="Ji6fl0p8hkXNXnG8fpe1bu">
         <Canvas Id="RM2xghDWTyCNmEBvNIKnaF" CanvasType="Group">
           <Node Bounds="136,222,75,19" Id="F770dAPIeUHM1Ndiacrud2">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -31,7 +31,7 @@
             <Pin Id="UvqeQCKNMIoPCYZloVYUqk" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="122,741,145,19" Id="JpZ2BekHLv1LJvEx31AFS0">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -203,5 +203,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV" Version="0.2.142-alpha" />
+  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV5" Version="0.2.142-alpha" />
 </Document>

@@ -16,7 +16,7 @@
       <Patch Id="OfHIIYNHbNYM6xLCocFFQJ">
         <Canvas Id="MTdgQquMru3OWLhgPXhueu" CanvasType="Group">
           <Node Bounds="75,231,75,19" Id="M78gwA8COeaQCdCyWn2rpE">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -35,7 +35,7 @@
             <Pin Id="KBhUcj0tyIQOTyaB4q2jsA" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="330,380,71,19" Id="FagkhjnBNT2PStlxhfH5D9">
-            <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ToByteArray" />
             </p:NodeReference>
@@ -54,7 +54,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="280,652,55,19" Id="DTofhAfu4ExNQzPvvoxpB0">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CvImage (Array)" />
             </p:NodeReference>
@@ -65,7 +65,7 @@
             <Pin Id="N8hbGddkaHfNlHIRAHwTwS" Name="Image" Kind="OutputPin" />
           </Node>
           <Node Bounds="280,589,45,19" Id="HR40GWbsQgzMZ8mDWUAhqA">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Info" />
               <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
@@ -80,7 +80,7 @@
             <Pin Id="Co96syPKIgIQJzrJiJ26ev" Name="Format" Kind="OutputPin" />
           </Node>
           <Pad Id="OYt4pKuP6czQUpoxQRxKso" Comment="Type" Bounds="307,630,76,15" ShowValueBox="true" isIOBox="true" Value="CV_8UC1">
-            <p:TypeAnnotation LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="MatType" />
             </p:TypeAnnotation>
           </Pad>
@@ -115,7 +115,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="978,231,75,19" Id="RcjwpXir1qdMu3mR83DJOo">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -157,7 +157,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="1249,316,36,19" Id="RkAAzAQiBXBNk9YAbNiP7W">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Split" />
               <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
@@ -180,7 +180,7 @@
               <Patch Id="SgZUGHeJUDHLe6a9OqIqes" Name="Update" ManuallySortedPins="true" />
               <Patch Id="I9DH5sBAA1kMmttSTUpgMR" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="1249,383,71,19" Id="TMgAXWp1pkIMXmnIjF1Dj9">
-                <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="ToByteArray" />
                 </p:NodeReference>
@@ -204,7 +204,7 @@
               <Patch Id="OCOCOxbCrruOHSTqMi1xUz" Name="Update" ManuallySortedPins="true" />
               <Patch Id="VU9Andjtn0uMERGlE9dk0a" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="1173,601,55,19" Id="Ku1hpgTZAp0MN8spJzGHbz">
-                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="CvImage (Array)" />
                 </p:NodeReference>
@@ -215,7 +215,7 @@
                 <Pin Id="RjCoI2FezQCNaLP2guLg46" Name="Image" Kind="OutputPin" />
               </Node>
               <Node Bounds="1175,525,45,19" Id="GivXJ7M43AQL3XbTt8jtGO">
-                <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Info" />
                   <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
@@ -230,7 +230,7 @@
                 <Pin Id="TmJLWSHaT4GLpD2LC4ektA" Name="Format" Kind="OutputPin" />
               </Node>
               <Pad Id="PCrsswLTQpDOh1k1osmbb5" Comment="Type" Bounds="1200,580,76,15" ShowValueBox="true" isIOBox="true" Value="CV_8UC1">
-                <p:TypeAnnotation LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+                <p:TypeAnnotation LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="TypeFlag" Name="MatType" />
                 </p:TypeAnnotation>
               </Pad>
@@ -239,7 +239,7 @@
             <ControlPoint Id="QDDN8TLDwPuLfHGA7bYyBm" Bounds="1175,642" Alignment="Bottom" />
           </Node>
           <Node Bounds="1173,690,34,19" Id="U2Dk8wTKkwzLsy9VkcbrdP">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Join" />
               <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
@@ -338,6 +338,6 @@
     </Node>
   </Patch>
   <NugetDependency Id="TpxW1tL4xpCOD74H4B62hZ" Location="VL.Stride" Version="2024.6.7" />
-  <NugetDependency Id="KavjGo46JKJMF2BjOtih22" Location="VL.OpenCV" Version="2.0.1-preview" />
+  <NugetDependency Id="KavjGo46JKJMF2BjOtih22" Location="VL.OpenCV5" Version="2.0.1-preview" />
   <NugetDependency Id="JzQD90vpPVSLj01Mwn0Rtt" Location="VL.Stride.TextureFX" Version="2024.6.7" />
 </Document>

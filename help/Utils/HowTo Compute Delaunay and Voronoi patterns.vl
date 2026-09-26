@@ -239,7 +239,7 @@
       <Patch Id="VBFsMhCwmVSOIuZnxjoVGv">
         <Canvas Id="HAVFzDrwqCaPT0c9qx4c1a" CanvasType="Group">
           <Node Bounds="396,521,65,19" Id="FyeBUqAcxIvN9Fm0c19Lxi">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="Voronoi" />
             </p:NodeReference>
@@ -252,7 +252,7 @@
             <Pin Id="Om4RmRZlh3qM9QP3sivjvS" Name="Facet Centers" Kind="OutputPin" />
           </Node>
           <Node Bounds="197,677,125,19" Id="TJ0KSI2KaNvPvsgQgGbwGw">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawPolygons" />
             </p:NodeReference>
@@ -270,7 +270,7 @@
             <Pin Id="EO8izzdiLpQOyrS1VgTnvP" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="221,521,68,19" Id="AUoxriS3H80LfjUD6MvxaG">
-            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Delaunay" />
             </p:NodeReference>
@@ -282,7 +282,7 @@
             <Pin Id="BZ46aSHu5EkO9Tz7mKejj4" Name="Triangles" Kind="OutputPin" />
           </Node>
           <Node Bounds="377,677,105,19" Id="BOpPsSLyRPAOY0VOuSCqqw">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="DrawPolygons" />
             </p:NodeReference>
@@ -346,7 +346,7 @@
             <Pin Id="MFQYutfQ0VUPYgUFMiKWHT" Name="Result" Kind="OutputPin" />
           </Node>
           <Node Bounds="82,430,55,19" Id="VqqgY4Oeh9KLNYiXgTiKMK">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Source" />
@@ -359,7 +359,7 @@
             <Pin Id="E0GzeHzDcO4LTQfKNjCnDw" Name="Image" Kind="OutputPin" />
           </Node>
           <Node Bounds="337,900,145,19" Id="OmUnSPEus0XPLugqRgLi7A">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -421,7 +421,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="82,477,125,19" Id="V0638qXOmzQPyg2Pr7YlWd">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawCircles" />
             </p:NodeReference>
@@ -661,5 +661,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MiM6tDLcwkeM7IuBbH3NO2" Location="VL.OpenCV" Version="0.2.142-alpha" />
+  <NugetDependency Id="MiM6tDLcwkeM7IuBbH3NO2" Location="VL.OpenCV5" Version="0.2.142-alpha" />
 </Document>

@@ -241,7 +241,7 @@
               <Pin Id="BCtZevRh9dgO3Y8GETuxWq" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="388,807,67,19" Id="PVPZ5EpjZ6gMeIjTTOoMJo">
-              <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Source" NeedsToBeDirectParent="true" />
                 <Choice Kind="ProcessAppFlag" Name="FromImage" />
@@ -302,7 +302,7 @@
       <Patch Id="U6y7EiOPit4Ooby2TFJ7F6">
         <Canvas Id="MAtCnTyYZ2SNsMAxOjYo9N" CanvasType="Group">
           <Node Bounds="119,441,453,19" Id="VxY8eLjIoCYOqzbRKcFANH">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Detection" />
@@ -331,7 +331,7 @@
             <Pin Id="IApYuwqsyXqLlvdK09SsE1" Name="Sizes" Kind="OutputPin" />
           </Node>
           <Node Bounds="99,682,85,19" Id="BucnjZMXeO8NPLgVRJ5EtL">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Drawing" />
@@ -359,7 +359,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="59,854,145,19" Id="MjfkLzw4zLuQMacIM2knvD">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -382,7 +382,7 @@
             <Pin Id="HYBcQ9AGpvLNyunqv3W4XR" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="99,799,335,19" Id="UOezRQNAJjZPCtTAykMcVm">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawTexts" />
             </p:NodeReference>
@@ -517,7 +517,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="183,322,96,19" Id="D0mZZScR5j1OWiGI650Ur5">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FilterByCircularity" />
             </p:NodeReference>
@@ -529,7 +529,7 @@
             <Pin Id="K4ly6M15zH9O3IHIcivUyO" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="183,288,70,19" Id="TtaP2jWyOjmPYxEWIoSUkH">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FilterByArea" />
             </p:NodeReference>
@@ -614,7 +614,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="274,77,74,19" Id="J3bdBbMkufMMqOR84do8L0">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="BlobDetector" />
               <Choice Kind="OperationCallFlag" Name="FilterByColor" />
@@ -625,7 +625,7 @@
             <Pin Id="Gr9eSWza3iUPkVVycvPL0p" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="274,112,70,19" Id="ROJUt6ghUlEO6mEPoXzYHa">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="BlobDetector" />
               <Choice Kind="OperationCallFlag" Name="FilterByArea" />
@@ -637,7 +637,7 @@
             <Pin Id="FdAHgsHSEeSLuVFSIYNxRI" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="274,146,94,19" Id="UjEajA07PDxOuWE6Qyqas8">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="BlobDetector" />
               <Choice Kind="OperationCallFlag" Name="FilterByConvexity" />
@@ -649,7 +649,7 @@
             <Pin Id="GDIQT8HLlWNPjVfPsYaEVt" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="274,180,78,19" Id="D7n0kvkwjL3PK6husBwM94">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection.BlobDetector" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="FilterByInertia" />
             </p:NodeReference>
@@ -777,6 +777,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="AfmuFAwq0rdMJjdcRc6fyd" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="AfmuFAwq0rdMJjdcRc6fyd" Location="VL.OpenCV5" Version="1.0.0" />
   <NugetDependency Id="U0IjmtdfaPGLtLSqEKGRLy" Location="VL.Skia" Version="2024.6.7" />
 </Document>

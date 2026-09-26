@@ -215,7 +215,7 @@
               </Patch>
             </Node>
             <Node Bounds="454,797,165,19" Id="DXw0Bi8m3cTPV7UYhSb0oj">
-              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="DrawTexts" />
               </p:NodeReference>
@@ -299,7 +299,7 @@
       <Patch Id="B4M5bvPvUZLLfMNFjnWUfI">
         <Canvas Id="SADY8ra81pmLyikAsBHdWz" CanvasType="Group">
           <Node Bounds="108,215,75,19" Id="IyebzgYX5moNwsUuX7makI">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Source" />
@@ -316,7 +316,7 @@
             <Pin Id="EDxHhsbaQQCNPpY4pGlLtP" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="68,864,145,19" Id="RSZ7bowETopNpg3KJOBf8i">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="OpenCV" />
               <CategoryReference Kind="Category" Name="Sink" />
@@ -345,7 +345,7 @@
             <Pin Id="IRF0sKlM3kFN6TVwkmER41" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="128,681,277,19" Id="So3VH9AbYZPMKljeZIOnk6">
-            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Detection" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="HoughCircles" />
             </p:NodeReference>
@@ -387,7 +387,7 @@
             <Pin Id="NarSNhYM1ZfPhL9uvK3z5A" Name="Radii" Kind="OutputPin" />
           </Node>
           <Node Bounds="108,807,125,19" Id="OxaOqG1KhtjNAuZW0k6Oeo">
-            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DrawCircles" />
             </p:NodeReference>
@@ -402,7 +402,7 @@
             <Pin Id="SSyo5VOW0ffOMybjnSwtPn" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="128,263,60,19" Id="DAh0FHRYIasODFzJ1izwbD">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GrayScale" />
             </p:NodeReference>
@@ -438,7 +438,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="128,341,67,19" Id="SnfzZXVaUv5Mta63HH2v8Q">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MedianBlur" />
             </p:NodeReference>
@@ -546,5 +546,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="P9Hs1jtWzWqO2jsGl2XG56" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="P9Hs1jtWzWqO2jsGl2XG56" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

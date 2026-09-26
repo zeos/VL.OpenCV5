@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:p="property" xmlns:r="reflection" Id="Vfdn8cevEHZLqJHskkzIWq" LanguageVersion="2024.6.7" Version="0.128">
   <NugetDependency Id="Gw1gnQpkwNqNLQmokm4zvk" Location="VL.CoreLib" Version="2024.6.7" />
-  <NugetDependency Id="SvX0SMoqGc1OMycshaqtj6" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="SvX0SMoqGc1OMycshaqtj6" Location="VL.OpenCV5" Version="1.0.0" />
   <Patch Id="VOJ8Gg4KYVfOa20dp4sCNr">
     <Canvas Id="CRaRwQfSLh7P9Gm953CwLa" DefaultCategory="VVVV" CanvasType="FullCategory" />
     <!--
@@ -17,7 +17,7 @@
       <Patch Id="OCQOR7A6gLNMYAtsHvzTnE">
         <Canvas Id="JvyBb0brA6mPaClgnUgefE" CanvasType="Group">
           <Node Bounds="49,880,145,19" Id="QKqNYL4MpF0MJxTIrzm4TO">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -40,7 +40,7 @@
             <Pin Id="OvpHpdO79yLQBfyKi3HxOr" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="89,837,205,19" Id="VZBMeEHcQarOGQEIpj6U9K">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -151,7 +151,7 @@
             <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
           </Overlay>
           <Pad Id="JEHYGHru2W7MpdJZrNPx8H" Comment="Device" Bounds="92,219,141,15" ShowValueBox="true" isIOBox="true" Value="Default">
-            <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="VideoInputDevice" />
             </p:TypeAnnotation>
           </Pad>
@@ -174,7 +174,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="703,360,145,19" Id="FSml10AA0ZkPM2OsDaLxpN">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn (Index)" />
             </p:NodeReference>
@@ -215,7 +215,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="OMdmPxebC4GPr9qGRFzvhD" Comment="Preferred API" Bounds="725,330,98,15" ShowValueBox="true" isIOBox="true" Value="DSHOW">
-            <p:TypeAnnotation LastCategoryFullName="OpenCvSharp" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="OpenCvSharp" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="VideoCaptureAPIs" />
             </p:TypeAnnotation>
           </Pad>

@@ -15,7 +15,7 @@
       <Patch Id="LjVVIICUM17MqfN1mfmlZ5">
         <Canvas Id="LvmMDyplSMpOFJeLFbazQs" CanvasType="Group">
           <Node Bounds="292,785,145,19" Id="DfYI3RTmA8lMGQmVfhfhQJ">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerTrainer (LBPH)" />
             </p:NodeReference>
@@ -61,7 +61,7 @@
           </Pad>
           <Pad Id="KnUMOraApcjQJDdvwJaF79" Comment="Is Trained" Bounds="434,823,35,35" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="293,927,114,19" Id="Ff3EgNnrNXOL9ttTrAuQJl">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerWriter" />
             </p:NodeReference>
@@ -132,7 +132,7 @@
           </Pad>
           <Overlay Id="HcNhNQMN4V4PPsqXcwB3pM" Name="Train a Recognizer" Bounds="212,586,500,388" />
           <Node Bounds="937,821,128,19" Id="VJHd3ngjLHhM8Up336mvra">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerPredictor" />
             </p:NodeReference>
@@ -145,7 +145,7 @@
             <Pin Id="Kghic78fKXgMfwrmMJxl1K" Name="Confidence" Kind="OutputPin" />
           </Node>
           <Node Bounds="937,741,118,19" Id="OCxLJpXjbUKNs8MWPS57SI">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerReader (LBPH)" />
             </p:NodeReference>
@@ -227,7 +227,7 @@
               <Patch Id="O1ARtw0A3SLL46XbhhC7Ep" Name="Update" ManuallySortedPins="true" />
               <Patch Id="KZ4ZUpzZDesPQEo0RLTsR2" Name="Dispose" ManuallySortedPins="true" />
               <Node Bounds="393,484,75,19" Id="GRDL0FDZyqKPW7MCZ7XW8P">
-                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+                <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="OpenCV" />
                   <Choice Kind="ProcessAppFlag" Name="ImageReader" />
@@ -247,7 +247,7 @@
                 </p:ValueBoxSettings>
               </Pad>
               <Pad Id="PogBfq2VyT0NEfVGeggeQq" Comment="Flags" Bounds="430,431,111,15" ShowValueBox="true" isIOBox="true" Value="Grayscale">
-                <p:TypeAnnotation LastCategoryFullName="OpenCvSharp" LastDependency="VL.OpenCV.vl">
+                <p:TypeAnnotation LastCategoryFullName="OpenCvSharp" LastDependency="VL.OpenCV5.vl">
                   <Choice Kind="TypeFlag" Name="ImreadModes" />
                 </p:TypeAnnotation>
               </Pad>
@@ -276,7 +276,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="UnBTEEssIgJL7IPFK4YNDY" Bounds="1080,830,204,73" ShowValueBox="true" isIOBox="true" Value="&lt; The Predictor accepts all types of FaceRecognizers (LBPH, Eigen, Fischer).">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -294,7 +294,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="DwuOlKqbw0sL1H9j0xfGKX" Bounds="203,1003,63,19" ShowValueBox="true" isIOBox="true" Value="See also:">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -303,7 +303,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="214,1040,118,19" Id="TVuwZbSwATtLYUorvduXWV">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerReader (Eigen)" />
             </p:NodeReference>
@@ -314,7 +314,7 @@
             <Pin Id="EgAJIUKyJ6LLiUgkEaHiKS" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="214,1065,118,19" Id="TztV7RJFm6XOHKubWic9aX">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerReader (Fisher)" />
             </p:NodeReference>
@@ -325,7 +325,7 @@
             <Pin Id="Dq6D9hGEbMMLymTiWN933q" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="KtXW4FkxIx1N3wWQyfYxgg" Bounds="337,1046,64,19" ShowValueBox="true" isIOBox="true" Value="(Eigen)">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -334,7 +334,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="VDWFo7JVuCGMZAHcJpkoFE" Bounds="337,1071,64,19" ShowValueBox="true" isIOBox="true" Value="(Fischer)">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -343,7 +343,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="215,1103,119,19" Id="EkrDhEJTSX8PRaMHhrJu8B">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerTrainer (Eigen)" />
             </p:NodeReference>
@@ -358,7 +358,7 @@
             <Pin Id="Kg4P4URvRvCMzigQeB74ea" Name="Is Trained" Kind="OutputPin" />
           </Node>
           <Pad Id="AEwvAoFAk9nLuzSDoalBRB" Bounds="337,1108,64,19" ShowValueBox="true" isIOBox="true" Value="(Eigen)">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -367,7 +367,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="ApXGJRYQyaON6XSwl305qg" Bounds="337,1135,64,19" ShowValueBox="true" isIOBox="true" Value="(Fischer)">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -376,7 +376,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="215,1129,119,19" Id="S0BPmAsjGjRLnJwlTUnQxL">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerTrainer (Fisher)" />
             </p:NodeReference>
@@ -391,7 +391,7 @@
             <Pin Id="AZvBsSswbFtMMjTLXS0JwG" Name="Is Trained" Kind="OutputPin" />
           </Node>
           <Node Bounds="215,1172,119,19" Id="Jvz8A0yLHtDLBwcBOs55JC">
-            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.FaceRecognition" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FaceRecognizerUpdate" />
             </p:NodeReference>
@@ -405,7 +405,7 @@
             <Pin Id="FETsPCbmRc6OgjQxHk9OGw" Name="Updated" Kind="OutputPin" />
           </Node>
           <Pad Id="PEXkZdi2xauLLen8S48vqq" Bounds="337,1179,94,19" ShowValueBox="true" isIOBox="true" Value="only (LBPH)!">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -414,7 +414,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="VP0teodAukAN2mCS7GZK7K" Bounds="234,466,123,47" ShowValueBox="true" isIOBox="true" Value="Training images must be GrayScale">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
@@ -439,7 +439,7 @@
         <Link Id="JiJa5pvBnGoPc649yBr9Wv" Ids="IySYQRkxCr8QEbjysp98zj,ELlQa86DvhHQP6tdvgT5Mv" />
         <Link Id="DoMxEoBjid7OKIhrR7wRpy" Ids="GuAmdaFAfWnN7jwZ3gjLkp,CPNWdizf5uDLFLqoxtwGSz" />
         <Slot Id="FWKByl5GiADN0khB3Gkr1W" Name="Image to Recognize">
-          <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+          <p:TypeAnnotation p:Type="TypeReference" LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
             <Choice Kind="TypeFlag" Name="CvImage" />
           </p:TypeAnnotation>
         </Slot>
@@ -456,5 +456,5 @@
     </Node>
   </Patch>
   <PlatformDependency Id="L8tTQZ3WzquMPcoYEZJMlY" Location="C:/Program Files/vvvv/vvvv_gamma_6.7-0136-ga34ff89f71/packs/TestGame/Bin/Windows/Debug/Stride.Core.Mathematics.dll" />
-  <NugetDependency Id="ChoalJNlSqLNaVsk4y8HAO" Location="VL.OpenCV" Version="0.0.0" />
+  <NugetDependency Id="ChoalJNlSqLNaVsk4y8HAO" Location="VL.OpenCV5" Version="0.0.0" />
 </Document>

@@ -174,7 +174,7 @@
                   <Pin Id="P6fQTsRnCEvQF6EQAmUG27" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="665,350,65,19" Id="VUauDhuhzQnMmy4XDHyzYq">
-                  <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+                  <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Info" />
                     <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true" />
@@ -197,7 +197,7 @@
                     <Patch Id="KEnVP6kiQYKOVYzDEcJXmn" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="Gv2zB3LBUOHLRp819CIM7k" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="481,440,56,19" Id="TzTs1GOIYkVNjGu48mGE7d">
-                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ToImage" />
                       </p:NodeReference>
@@ -241,7 +241,7 @@
                     <Patch Id="AQJKb50FncuMLzL1kvAyD8" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="KpiyS9RHOuwL5p4TPSD1s7" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="462,1000,56,19" Id="CQnXSQ5uhK3NhgXSR3n1rx">
-                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ToImage" />
                       </p:NodeReference>
@@ -285,7 +285,7 @@
                     <Patch Id="QYHr4KsIwTmLtyuRqJA1zW" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="FDF5o1Cvq2KN2xJmaYIedv" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="482,627,56,19" Id="RVWDPDR53qZMBoBh9cCDev">
-                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ToImage" />
                       </p:NodeReference>
@@ -333,7 +333,7 @@
                     <Patch Id="PcXJxYEJkthO45fUhTtJgP" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="R3mjFijAvUHM68M6c8dWWM" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="482,836,56,19" Id="Q1n9S7xAIKENzXRgIaPu0B">
-                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+                      <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ToImage" />
                       </p:NodeReference>
@@ -347,7 +347,7 @@
                       <Pin Id="AFiomUjUTisMc2CmvX9EXV" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="482,806,85,19" Id="QhtbLcPbRdeQETBfapDwEj">
-                      <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+                      <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="ConvertColor" />
                         <CategoryReference Kind="Category" Name="Filter" NeedsToBeDirectParent="true" />
@@ -573,5 +573,5 @@
   </Patch>
   <NugetDependency Id="PplJ8M06DDYNWsWk2Slfxl" Location="VL.Skia" Version="2024.6.7" />
   <NugetDependency Id="Vx0IDKk0ZwjLq5dkCVhG5Z" Location="VL.HDE" Version="2024.6.7" />
-  <NugetDependency Id="AuLBmU5c2mTMBhjEQyeKFa" Location="VL.OpenCV" Version="2.5.0" />
+  <NugetDependency Id="AuLBmU5c2mTMBhjEQyeKFa" Location="VL.OpenCV5" Version="2.5.0" />
 </Document>

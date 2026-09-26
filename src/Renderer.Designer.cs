@@ -57,7 +57,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Renderer";
-            this.Text = "VL.OpenCV Renderer";
+            this.Text = "VL.OpenCV5 Renderer";
             this.Load += new System.EventHandler(this.Renderer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

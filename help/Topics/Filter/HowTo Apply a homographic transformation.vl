@@ -15,7 +15,7 @@
         <Patch Id="UL1QW5zB4cYLWOpKnTO2nR">
           <Canvas Id="QE1ZXRfKtT2LhUdiTymGP8" CanvasType="Group">
             <Node Bounds="497,280,45,19" Id="MfV9kkELdtAOSy2927569Y">
-              <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Info" />
                 <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true" />
@@ -157,7 +157,7 @@
       <Patch Id="GQMNekTl5YKMpuAcRC4oAz">
         <Canvas Id="DAbizkK893CQan0u3NlAVn" CanvasType="Group">
           <Node Bounds="70,774,145,19" Id="VZZg2FlTgqLMC9ZmnDLw8Z">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -180,7 +180,7 @@
             <Pin Id="Lum7bt193vDLo1h00abSHL" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="111,265,86,19" Id="Oi2iw3xveZQPnuh2xPsuIH">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -255,7 +255,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="110,719,85,19" Id="QilKdniHDpFOpC9J0kgnNA">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Transform (Perspective)" />
             </p:NodeReference>
@@ -328,5 +328,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

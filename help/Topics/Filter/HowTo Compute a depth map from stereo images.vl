@@ -16,7 +16,7 @@
       <Patch Id="KRjjvMnLU2NLIJzVLPNwUk">
         <Canvas Id="EemXHRyFsCJOmipnXbMJIN" CanvasType="Group">
           <Node Bounds="64,899,145,19" Id="FtEIE4NIZiXN58Ft9PlnXh">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -43,7 +43,7 @@
             <Pin Id="VCfFoy1sCQ3Obm3rh2qT3o" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="104,598,245,19" Id="KTtXwIuUzoEMJGg9deLffF">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="StereoSGBMMatcher" />
             </p:NodeReference>
@@ -65,7 +65,7 @@
             <Pin Id="EN1WORIACBmMry4SMFrGXP" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="100,124,75,19" Id="VDk2lSJaQaAP41x5LUeEdQ">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -84,7 +84,7 @@
             <Pin Id="JDKCo9EdpxONsk7NQ7VfkN" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="121,189,75,19" Id="HVB34BKiHRWOEhiNsoTwCy">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
@@ -113,7 +113,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="104,696,105,19" Id="U81b1VVMYPyPnxvNMEU45k">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Normalize" />
               <FullNameCategoryReference ID="OpenCV.Filter" />
@@ -124,7 +124,7 @@
             <Pin Id="PL0oyR0HxhYQItWQ54pNNp" Name="Beta" Kind="InputPin" />
             <Pin Id="JvZcpicsMC4Nd4d6UOLX65" Name="Norm Type" Kind="InputPin" />
             <Pin Id="ASA5JWt8eLyMACfBX0drNl" Name="Destination Type" Kind="InputPin" DefaultValue="CV_8UC1">
-              <p:TypeAnnotation LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
+              <p:TypeAnnotation LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="TypeFlag" Name="MatType" />
               </p:TypeAnnotation>
             </Pin>
@@ -200,7 +200,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="124,157,145,19" Id="Houpfz4Vkc1NawQlGSSoBy">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -227,7 +227,7 @@
             <Pin Id="S9xu3AmgpnUQIy53KhH0Ri" Name="Enabled" Kind="InputPin" />
           </Node>
           <Node Bounds="142,223,145,19" Id="BPLVrSwwqVJLxsYGRS5YTA">
-            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
@@ -295,5 +295,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV" Version="1.0.0" />
+  <NugetDependency Id="MwmviJrXk1LMVG8liSiVgb" Location="VL.OpenCV5" Version="1.0.0" />
 </Document>

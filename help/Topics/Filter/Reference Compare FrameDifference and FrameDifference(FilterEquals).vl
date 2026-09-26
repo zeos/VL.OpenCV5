@@ -16,7 +16,7 @@
       <Patch Id="Qr3eKJsJdEHP6htsc4AQuF">
         <Canvas Id="PRn5XAUVZU0McRjsVZtp5h" CanvasType="Group">
           <Node Bounds="154,220,125,19" Id="Q51ASYwxDuZQA4xCzKslpI">
-            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="VideoIn" />
             </p:NodeReference>
@@ -33,7 +33,7 @@
             <Pin Id="OmnuyUfDQNNObGflzySpOO" Name="Supported Formats" Kind="OutputPin" />
           </Node>
           <Node Bounds="154,345,91,19" Id="RiWY2dPyR40MLDBVIFo4az">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Filter" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="FrameDifference" />
@@ -44,7 +44,7 @@
             <Pin Id="FelqzgaIbgBNaQwBMX3bhp" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="154,258,60,19" Id="GeZJ9Jb8CcENNPd1bl4rCj">
-            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="GrayScale" />
             </p:NodeReference>
@@ -75,7 +75,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="390,345,91,19" Id="NZEcBJav7MlLD1JxJVPkPV">
-            <p:NodeReference LastCategoryFullName="Main.Filter" LastDependency="VL.OpenCV.vl">
+            <p:NodeReference LastCategoryFullName="Main.Filter" LastDependency="VL.OpenCV5.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FrameDifference (FilterEquals)" />
             </p:NodeReference>
@@ -111,5 +111,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Hi4rZzMuONzNbS4uNvk3Gt" Location="VL.OpenCV" Version="0.0.0" />
+  <NugetDependency Id="Hi4rZzMuONzNbS4uNvk3Gt" Location="VL.OpenCV5" Version="0.0.0" />
 </Document>

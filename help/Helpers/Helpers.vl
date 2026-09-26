@@ -15,7 +15,7 @@
         <Patch Id="FH95jJIIqNUPiCgxRvWbU8">
           <Canvas Id="IeucdZqkL74NRCnQQLx6Lc" CanvasType="Group">
             <Node Bounds="319,248,66,19" Id="CujH0aApYQTOF0oSL4FsV9">
-              <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Conversion" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ToImage" />
               </p:NodeReference>
@@ -1741,7 +1741,7 @@
                   <Pin Id="G0QdkAzvQYBLYJGyb6vemm" Name="Renderer" Kind="OutputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="351,447,115,19" Id="HUZlbjSQKbdOdEFcfVauPX">
-                  <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV.vl">
+                  <p:NodeReference LastCategoryFullName="OpenCV.Source" LastDependency="VL.OpenCV5.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="CvImage (Array)" />
                   </p:NodeReference>
@@ -1762,7 +1762,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="351,487,125,19" Id="Kd3xQNyGKaLPVd9Menq7Kx">
-                  <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+                  <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="Category" Name="OpenCV" />
                     <CategoryReference Kind="Category" Name="Filter" />
@@ -1864,7 +1864,7 @@
         <Patch Id="VIBcaDs1HQbLYaqPvgkzOn">
           <Canvas Id="H2YRRU7BP2QLmRUUOnkeHq" CanvasType="Group">
             <Node Bounds="521,365,98,19" Id="Qsw9Pu8tjQKPdAXQ6VAYhi">
-              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="DrawArucoMarker" />
               </p:NodeReference>
@@ -1907,7 +1907,7 @@
               <Pin Id="GhIcDePG0oDPRhYONYmerf" Name="Changed" Kind="OutputPin" />
             </Node>
             <Node Bounds="521,444,56,19" Id="QH2vJDsdhW9QQd6jLEOOkn">
-              <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ToImage" />
                 <PinReference Kind="OutputPin" Name="Output" />
@@ -1918,7 +1918,7 @@
               <Pin Id="ULCFOoWjvd9MBH9DzgpwD5" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="521,407,105,19" Id="JPm6qzo5ipANgwIeabwO73">
-              <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
+              <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV5.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="OpenCV" />
                 <CategoryReference Kind="Category" Name="Filter" />
@@ -1927,7 +1927,7 @@
               <Pin Id="B5nYOZWfBe0MjXFGGlImac" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="AI0kHprBI1EOB7l26iEEU8" Name="Input" Kind="InputPin" />
               <Pin Id="NJsOENYEMqmMJSSv8pwb6D" Name="Source Format" Kind="InputPin" DefaultValue="GRAY">
-                <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV.dll">
+                <p:TypeAnnotation LastCategoryFullName="VL.OpenCV" LastDependency="VL.OpenCV5.dll">
                   <Choice Kind="TypeFlag" Name="ColorConversionSourceCodes" />
                 </p:TypeAnnotation>
               </Pin>
@@ -2094,6 +2094,6 @@
     </Node>
   </Patch>
   <NugetDependency Id="RR8zwRsQV7LLmt7jS08W66" Location="VL.Stride" Version="2024.6.7" />
-  <NugetDependency Id="E44eVNsppW0NYdDNkcevLU" Location="VL.OpenCV" Version="0.0.0.0" />
+  <NugetDependency Id="E44eVNsppW0NYdDNkcevLU" Location="VL.OpenCV5" Version="0.0.0.0" />
   <NugetDependency Id="Fy4OfWS6YjlLq1jZFnPsqd" Location="VL.Skia" Version="2024.6.7" />
 </Document>
